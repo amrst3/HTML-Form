@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Data</title>
+    </head>
+    <body>
+        <form>
+            <!-- The main fieldset to the form-->
+            <fieldset style="background-color: brown;">
+                <legend style="background-color: aqua;">Personal Data</legend>
+                <br/><br/>
+                <!-- The name fieldset -->
+                <fieldset style="background-color: yellowgreen;">
+                    <legend style="background-color: aqua; height: 60px;"><br/>Your Name</legend>
+                    <label>First name :</label>
+                    <input type="text" name="firstName" placeholder="ex amr"/><br/><br/>
+                    <label>Last name :</label>
+                    <input type="text" name="lastName" placeholder="ex mohamed"/>
+                </fieldset><br/><br/>
+                <!-- Contact info -->
+                <label>Your phone:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="tel" name="phone"/><br/>
+                <label>Email :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="email" name="email"/><br/>
+                <label>Password :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="password" name="pass"/><br/>
+                <label>Re-Password :</label>&nbsp;
+                <input type="password" name="rePass"/>
+                <br/><br/><br/>
+                <!-- Gander info -->
+                <input type="radio" name="gander" value="male" id="male"/>
+                <label for="male">Male</label><br/>
+                <input type="radio" name="gander" value="female" id="female"/>
+                <label for="female">Female</label><br/><br/><br/>
+                <!-- User state -->
+                <input type="checkbox" name="case" value="student" id="stu"/>
+                <label for="stu">Student</label><br/>
+                <input type="checkbox" name="case" value="Graduated" id="grad"/>
+                <label for="grad">Graduated</label><br/><br/><br/>
+                <!-- Unevrsity -->
+                <select name="unevrsity">
+                    <optgroup label="National">
+                        <option value="azhar" selected>Al-Azhar</option>
+                        <option value="ainShams">Ain Shams</option>
+                    </optgroup>
+                    <optgroup label="International">
+                        <option value="auc">AUC</option>
+                        <option value="guc">GUC</option>
+                    </optgroup>
+                </select><br/><br/>
+                <!-- Submitting button -->
+                <input type="image" src="submit-button-png-25811.png" alt="Submit"  name="submit" style="width: 50;"/>
+            </fieldset>
+            </form>
+
+    </body>
+</html>
